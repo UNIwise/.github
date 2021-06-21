@@ -1,0 +1,17 @@
+name: Golangci linting
+
+on:
+  pull_request:
+    branches:
+      - master
+      - develop
+      - feature/**
+      - hotfix/**
+
+jobs:
+  Linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v2
