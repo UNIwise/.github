@@ -1,7 +1,7 @@
 {
     "name": "PS12 Linting Workflow",
     "description": "Lints changed files with the PSR12 code style",
-    "iconName": "PSR12",
+    "iconName": "psr12",
     "categories": [
         "PHP"
     ]
